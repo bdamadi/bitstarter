@@ -2,14 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>My First Bitstarter</title>
+    <title>OABot: Office Assisting Robot</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" 
-          href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
-    <link type="text/css" rel="stylesheet" 
-          href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
-    <link type="text/css" rel="stylesheet" 
-          href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
     <link ref="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">          
@@ -59,9 +56,13 @@
       font-size: 24px;
       line-height: 30px;
     }
-    p {
+    p, li {
       font-size: 18px;
       line-height: 24px;
+    }
+    .oabot {
+      font-weight: bold;
+      color: #1155AA;
     }
     
     /* Video pitch and action */
@@ -81,6 +82,12 @@
     .statistics h3, .statistics p {
       color: white;
     }
+    .statistics h3 {
+      font-size: 22px;
+    }
+    .statistics p {
+      font-size: 16px;
+    }
     
     /* Marketing Copy and Footer */
     .copy {
@@ -89,7 +96,7 @@
       text-align: justify;
     }
     .asset {
-      padding: 2.5% 0%;
+      padding: 5.5% 0%;
     }
     .footer {
       color: #cccccc;
@@ -131,18 +138,18 @@
     <div class="container">
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>Product</h1>
+          <h1>OABot</h1>
         </div>
       </div>
       <div class="row-fluid subheading">
         <div class="span12">
-          <p class="lead">One sentence description</p>
+          <p class="lead">Office Assisting Robot, a diligent and friendly office assistant.</p>
         </div>
       </div>
       <div class="row-fluid pitch">
         <!-- Product video -->
         <div class="span5 offset1 video">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="https://dl.dropboxusercontent.com/u/151651754/startrex-depict.jpg">
         </div>
         
         <div class="span5 actions">
@@ -152,17 +159,17 @@
             <div class="statistics">
               <div class="span4">
                 <div class="linediv-l">
-                  <h3>1000</h3> <p>backers</p>
+                  <h3>6000</h3> <p>backers</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-c">
-                  <h3>$6000</h3> <p>of $10,000</p>
+                  <h3>$150,000</h3> <p>of $200,000</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-r">
-                  <h3>10</h3> <p>days left</p>
+                  <h3>8</h3> <p>days left</p>
                 </div>
               </div>
             </div>
@@ -171,8 +178,8 @@
           <div class="span10 offset1">
             <!-- Bootstrap progress bar -->
             <div class="thermometer progress active">
-              <div class="bar bar-success" style="width: 60%"></div>
-              <div class="bar bar-warning" style="width: 40%"></div>
+              <div class="bar bar-success" style="width: 75%"></div>
+              <div class="bar bar-warning" style="width: 25%"></div>
             </div>
           </div>
 
@@ -192,38 +199,42 @@
       <!-- Marketing copy -->
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="https://dl.dropboxusercontent.com/u/151651754/oabot.png">
         </div>
         <div class="span5 copy">
+          <h4>Nice and friendly Office Assistant</h4>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus 
-          malesuada erat a eros consequat tempor. Aliquam faucibus metus enim, 
-          vitae lacinia diam aliquam eu. Nullam ac quam ligula. Nam non iaculis 
-          arcu. Praesent et nibh vitae dolor pulvinar consequat. Nulla eget 
-          pellentesque ipsum. Duis vehicula dapibus leo, vitae commodo sapien. 
-          Sed sollicitudin sagittis enim nec varius. Integer id lectus et magna 
-          vestibulum eleifend. Phasellus in dui id purus faucibus tempus vitae 
-          eu orci. Nulla facilisis, neque at ultricies vestibulum, libero nunc 
-          blandit enim, sit amet pharetra elit sem et orci.
+          <span class="oabot">OABot</span> isn't intended to replace an office
+          assistant, but it can do the hard work and bring a whole new working
+          environment to a small and medium office. <span class="oabot">OABot</span> can welcome guests
+          and client, guide them to the corresponding room. Having a new employee,
+          <span class="oabot">OABot</span> can introduce her with an office tour. <span class="oabot">OABot</span> can also deliver mails/packages 
+          to a target room or staff, operate copy-fax machine, and a lot of office
+          works. Built with face-recognition, speech-synthesis system, <span class="oabot">OABot</span>
+          becomes a friendly office assistant. Moreover, <span class="oabot">OABot</span> brings a whole new
+          office environment and collaboration experience to every staff.
           </p>
         </div>
       </div>
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
+          <h4>Technical Overview</h4>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus 
-          malesuada erat a eros consequat tempor. Aliquam faucibus metus enim, 
-          vitae lacinia diam aliquam eu. Nullam ac quam ligula. Nam non iaculis 
-          arcu. Praesent et nibh vitae dolor pulvinar consequat. Nulla eget 
-          pellentesque ipsum. Duis vehicula dapibus leo, vitae commodo sapien. 
-          Sed sollicitudin sagittis enim nec varius. Integer id lectus et magna 
-          vestibulum eleifend. Phasellus in dui id purus faucibus tempus vitae 
-          eu orci. Nulla facilisis, neque at ultricies vestibulum, libero nunc 
-          blandit enim, sit amet pharetra elit sem et orci.
+          <em>Route-Tracking</em> allows <span class="oabot">OABot</span>
+          to easily travel through an office by learning a floor plan. With 
+          <em>Collision Detection</em>, she can avoid hitting staff or furniture.
+          </p>
+          <p>
+          <span class="oabot">OABot</span> has a <em>Robotic arm</em> which is 
+          strong for heavy objects, and precise for small items. Built-in camera
+          with <em>face-recognition</em>, <span class="oabot">OABot</span> can
+          distinguish all staff members, communicates with a <em>synthesized speech</em>.
+          She can also learn new phases and sentences. Speed made by <span class="oabot">OABot</span>
+          is not simply a recorded voice but more interactive, and friendly conversation.
           </p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="https://dl.dropboxusercontent.com/u/151651754/technical-diagram.png">
         </div>
       </div>
 
@@ -236,12 +247,13 @@
               <div class="accordion-heading">
                 <a class="accordion-toggle" data-toggle="collapse"
                    data-parent="#accordion2" href="#collapseOne">
-                   What does FAQ stand for?
+                   What will be the price of the <span class="oabot">OABot</span> after our Bitstarter campaign?
                 </a>
               </div>
               <div id="collapseOne" class="accordion-body collapse">
                 <div class="accordion-inner">
-                  Frequently Asked Question
+                  The price of the <span class="oabot">OABot</span> after our Bitstarter campaign will be $499. 
+                  Our backers receive a discount 20% and get their orders fulfilled before any retail orders.
                 </div>
               </div>
             </div>
@@ -249,12 +261,15 @@
               <div class="accordion-heading">
                 <a class="accordion-toggle" data-toggle="collapse"
                    data-parent="#accordion2" href="#collapseTwo">
-                   What's a Frequently Asked Question?
+                   Can <span class="oabot">OABot</span> work in a multi-floor
+                   office?
                 </a>
               </div>
               <div id="collapseTwo" class="accordion-body collapse">
                 <div class="accordion-inner">
-                  A question which is commonly asked by users
+                  No, by now. <span class="oabot">OABot</span> only works in a floor with a provided floor
+                  plan. However, future improvement might allow her to move
+                  between floors using elevator.
                 </div>
               </div>
             </div>

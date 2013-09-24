@@ -4,9 +4,8 @@ var fs = require('fs');
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-// Read hello message in the index.html file	
- var message = fs.readFileSync ("index.html").toString(); 
- response.send(message);
+// Read hello message in the index.html file	 
+ response.send('Hello World 2!');
 });
 
 var port = process.env.PORT || 8080;
